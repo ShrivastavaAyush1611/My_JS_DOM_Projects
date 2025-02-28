@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 200px;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.storyia{ 
+    height: 50px;
+    /* background-color: red; */
+    border-bottom: 1px solid rgb(194, 192, 192);
+    padding: 10px;
+}
+.story{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    
+}
